@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phazma Dogee | Official Social Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at top, #2a2a33 0%, #0e0e11 60%);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.2em;
+      text-shadow: 0 0 15px #ffffff80;
+    }
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: linear-gradient(145deg, #1e1e26, #0b0b0f);
+      border: 1px solid #ffffff30;
+      padding: 24px;
+      text-align: center;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #aaa;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PHAZMA DOGEE</h1>
+  <p>Official Streaming & Social Hub</p>
+</header>
+
+<section>
+  <h2>Social Media</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Twitch</h3>
+      <a href="https://www.twitch.tv/Phazma_Dogee" target="_blank">Watch Live</a>
+    </div>
+    <div class="card">
+      <h3>YouTube</h3>
+      <a href="https://www.youtube.com/@Phazma_Dogee" target="_blank">Visit Channel</a>
+    </div>
+    <div class="card">
+      <h3>TikTok</h3>
+      <a href="https://www.tiktok.com/@phazma_dogee1" target="_blank">Watch Clips</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Latest YouTube Videos</h2>
+  <div class="grid">
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed?listType=playlist&list=UU"></iframe>
+      <p>Automatically updates with newest uploads</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Live on Twitch</h2>
+  <div class="card">
+    <iframe src="https://player.twitch.tv/?channel=phazma_dogee&parent=localhost" allowfullscreen></iframe>
+    <p>Replace <b>parent=localhost</b> with your domain once live</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Phazma Dogee · All Rights Reserved
+</footer>
+
+</body>
+</html>
